@@ -12,3 +12,17 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+// code away!
+const express = require('express');
+const server = express();
+
+server.use(express.json())	
+const apiRoutes = require("./api/apiRoutes")
+server.use('/api', apiRoutes);
+
+const PORT = 3000; 
+
+
+server.listen(PORT, ()=> {
+	console.log('listening ')
+})

@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+setting up nodemon to auto save and how to set up router
+
 - [ ] Describe Middleware?
+
+its functions that exectute during a server request or response  
 
 - [ ] Describe a Resource?
 
+any program that carrys out some purpose 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+many things - a json obect , some html , a terminal respose 
+
+
 - [ ] How can we partition our application into sub-applications?
+
+create seperate files and  with seperate routes or functions  for each of the parent applications 
 
 ## Minimum Viable Product
 
